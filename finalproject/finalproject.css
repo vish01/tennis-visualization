@@ -1,0 +1,63 @@
+/* CSS Document */
+
+h1
+{
+	color: green;
+}
+h2
+{
+	color:green;
+}
+#i1
+{
+	font-size: 30px;
+	font-weight: normal;
+	font-style: italic;
+}
+#font1
+{
+	color:red;
+}
+#barchart
+{
+
+		transform:scale(1,-1);
+}
+#legend {
+	padding: 1.5em 0 0 1.5em;
+}
+
+li.key {
+	border-top-width: 15px;
+	border-top-style: solid;
+	font-size: .75em;
+	width: 10%;
+	padding-left: 0;
+	padding-right: 0;
+}
+/*div.tooltip {*/
+	/*position:absolute;*/
+	/*text-align:center;*/
+	/*border:1px;*/
+	/**/
+/*}*/
+.d3-tip {
+	line-height: 1.5;
+	font-weight: 00;
+	font-family:"avenir next", Arial, sans-serif;
+	padding: 6px;
+	background: blue;
+	color: white;
+	border-radius: 1px;
+	pointer-events: none;
+}
+.barchart
+{
+	fill: blue;
+}
+path {stroke:blue ;fill:none}
+
+.paragraph
+{
+	font-size: 15px;
+}
